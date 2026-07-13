@@ -1,0 +1,13 @@
+services:
+  mcp-postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ml-workbench-mcp-postgres
+    stdin_open: true
+    tty: false
+    environment:
+      PG_USER: ${DATA_PG_USERNAME:?set DATA_PG_USERNAME}
+      PG_PASSWORD: ${DATA_PG_PASSWORD:?set DATA_PG_PASSWORD}
+    command: ${DATA_PG_URL:?set DATA_PG_URL}
+
