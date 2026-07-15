@@ -1,26 +1,26 @@
 MinioStorage:
-  host: 10.20.151.10
+  host: 0.0.0.0
   password: CuqMrNdsd6amFPPUHmhVGhH9ljX5ERUALkAIjSnd
   port: 9000
   username: KmgcL1ByBH0QLeFAzBKs
   secure: False
   
 DataPG:
-  host: 192.168.88.208
+  host: 0.0.0.0
   port: 5432
   database: data_validation
   username: enricher
   password: 5up3r53CUR3D
 
 BBPG:
-  host: 192.168.78.146
+  host: 0.0.0.0
   port: 30555
   database: bimebazar
   username: ai_user
   password: 98F#47C2trSuXGb
 
 Broker:
-  host: 192.168.88.208
+  host: 0.0.0.0
   port: 9092
   topics:
     - direct_agent_generate
