@@ -1,7 +1,6 @@
 import argparse
 
-from mcp.postgres_mcp_config import build_postgres_mcp_config
-from mcp.job_queries import fetch_job_by_id
+from mcp_custom.server.postgress import main
 from utils.config_loader import Configs
 
 

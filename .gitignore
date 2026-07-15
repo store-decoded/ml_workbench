@@ -1,0 +1,6 @@
+datasets
+lightning_logs
+resources/checkpoints
+resources/stash
+test.py
+.venv
